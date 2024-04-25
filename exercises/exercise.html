@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Display Block and Inline-Block</title>
+    <style>
+      div {
+        vertical-align: top;
+      }
+      input {
+        font-family: Arial;
+        border-width: 1px;
+        border-radius: 4px;
+        font-weight: normal;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        display: block;
+      }
+      .name-bar {
+        margin-bottom: 5px;
+      }
+      
+      .email-bar {
+        margin-bottom: 10px;
+      }
+
+      .paragraph {
+        width:200px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      ,no-button {
+       
+      }
+
+      .first-image {
+        width: 200px;
+        border-radius: 15px;
+        margin-right: 2px;
+        vertical-align: middle;
+      }
+
+      .second-image {
+        width: 200px;
+        margin-left: 20px;
+        vertical-align: middle;
+        
+      }
+
+      .third-image {
+        width: 160px;
+        margin-left: 20px;
+        height: 160px; 
+        border-radius: 80px;
+        margin-left: 20px;
+        vertical-align: middle;
+      
+      }
+      .search-bar {
+        width: 300px;
+        margin-top: 10px;
+        border-radius: 15px;
+        border-width: 1px;
+        box-shadow: 5px 5px 10px rgba(0,0,0, 0.15);
+        border: none;
+      }
+
+      .div-example {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        margin-top: 10px;
+        display: inline-block;
+        margin-right: 15px;
+      }
+
+      .green-circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: green;
+        display: inline-block;
+        margin-top: 10px;
+      }
+      .p-yesno {
+        display:inline-block;
+        border: solid;
+        margin-top: 15px;
+        width: 200px;
+        height:100px;
+        border-width: 1px;
+        margin-bottom: 15px;
+      }
+
+      .div-paragraph {
+        border-left: 150px;
+        margin-left: 2px;
+      }
+
+      .profile-picture {
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+        vertical-align: top;
+      }
+
+      .cat-description {
+        display: inline-block;
+        width: 200px;
+        margin-left: 20px;
+        vertical-align: middle; 
+      }
+
+      .cat-title {
+        margin-top: 1px;
+        margin-bottom: 1px;
+      }
+
+      .cat-name {
+        margin-top: 1px;
+        margin-bottom: 1px;
+      }
+
+      .cat-status {
+        margin-top: 0px;
+        margin-bottom: 1px;
+      }
+
+      .cat-info{
+        vertical-align: top;
+      }
+
+    </style>
+  </head>
+  <body>
+    <input class="name-bar" type="text" placeholder="Name">
+    <input class="email-bar" type="text" placeholder="Email">
+
+    <p class="paragraph">Thanks for chating with our customer support. Would you like to take our quick survey &#63;</p>
+    <button>Yes</button>
+    <button class="no-button">No</button>
+    <br>
+
+    <img class="first-image" src="lawrence.jpg">
+    <img class="second-image" src="lawrence.jpg">
+    <img class="third-image" src="lawrence.jpg">
+    <br>
+    <input class="search-bar" type="text" placeholder="Search Google or type a URL">
+    
+    
+    <div class="div-example"></div>
+    <div class="green-circle"></div>
+
+    <div class="p-yesno">
+      <p class="div-paragraph">Satisfied with your service &#63;</p>
+      <button>yes</button>
+      <button>No</button>
+    </div>
+
+    <div class="cat-info">
+        <img class="profile-picture" src="lawrence.jpg">
+      <div class="cat-description">
+        <p class="cat-name">oliver</p>
+        <p class="cat-title">the cat</p>
+        <p class="cat-status">Popular</p>
+      </div>
+    </div>
+    
+  </body>
+</html>
